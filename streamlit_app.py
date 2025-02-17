@@ -9,8 +9,7 @@ try:
 except ModuleNotFoundError:
     subprocess.run(["pip", "install", "plotly"])
     import plotly.graph_objects as go
-
-import plotly.graph_objects as go
+ 
 
 # Load the data
 @st.cache
