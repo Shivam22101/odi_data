@@ -46,7 +46,8 @@ def load_and_optimize_csv(filename, chunksize=100000):
     return pd.concat(chunks, ignore_index=True)
 
 # Load and optimize the data
-data = load_and_optimize_csv('https://drive.google.com/file/d/1RqPHrnZ8MpgfeyO45TMXMihYWYo9q1Em/view?usp=sharing')
+data = load_and_optimize_csv('data = load_and_optimize_csv('https://drive.google.com/uc?id=1RqPHrnZ8MpgfeyO45TMXMihYWYo9q1Em&export=download')
+ 
 
 
 # Sidebar filters
