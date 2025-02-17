@@ -1,6 +1,15 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import os
+import subprocess
+
+try:
+    import plotly.graph_objects as go
+except ModuleNotFoundError:
+    subprocess.run(["pip", "install", "plotly"])
+    import plotly.graph_objects as go
+
 import plotly.graph_objects as go
 
 # Load the data
